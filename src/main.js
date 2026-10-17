@@ -93,7 +93,7 @@ const fbxLoader = new FBXLoader();
 
 let claudia;
 
-fbxLoader.load('public/claudia.fbx', (object) => {
+fbxLoader.load('/claudia.fbx', (object) => {
 
 // object.rotation.set(30,0,0.6);
 claudia = object;
